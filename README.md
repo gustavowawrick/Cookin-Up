@@ -1,41 +1,41 @@
-# cookin-up
-
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
-
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
 # Cookin-Up
+
+Cookin-Up é um projeto desenvolvido com Vue 3 e Vite, criado durante o curso da Alura. O objetivo é proporcionar uma experiência otimizada no desenvolvimento de aplicações Vue.
+
+## Tecnologias Utilizadas
+
+- Vue 3
+- Vite
+- TypeScript
+- Node.js
+
+## Configuração do Ambiente
+
+Para um melhor desenvolvimento, recomendamos o uso do [VSCode](https://code.visualstudio.com/) com as seguintes extensões:
+
+- [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (desativando o Vetur)
+- [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin)
+
+Se desejar um desempenho melhor, ative o [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) seguindo os passos:
+
+1. Desative a extensão integrada do TypeScript no VSCode:
+   - Execute `Extensions: Show Built-in Extensions` na paleta de comandos do VSCode.
+   - Encontre `TypeScript and JavaScript Language Features`, clique com o botão direito e selecione `Disable (Workspace)`.
+2. Reinicie o VSCode com `Developer: Reload Window`.
+
+## Configuração do Projeto
+
+1. Clone o repositório:
+   ```sh
+   git clone https://github.com/seu-usuario/cookin-up.git
+   cd cookin-up
+2. Instale as dependências:
+   ```sh
+   npm install
+3. Execute o projeto em ambiente de desenvolvimento:
+   ```sh
+   npm run dev
+4. Compile e gere a build para produção:
+   ```sh
+    npm run build
+
